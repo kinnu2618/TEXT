@@ -35,7 +35,7 @@ def generate_blog_post(title, keywords, num_words):
 
 st.set_page_config(layout="wide")
 
-st.title('📝 TEXT')
+st.title('B L O G 👻')
 st.subheader('Enter your topic and get a blog post generated for you!')
 
 with st.sidebar:
@@ -44,7 +44,7 @@ with st.sidebar:
 
     blog_title = st.text_input("Blog Title")
     keywords = st.text_area("Keywords (comma-separated)")
-    num_words = st.slider("Number of Words", min_value=250, max_value=20000, step=100)
+    num_words = st.slider("Number of Words", min_value=1000, max_value=100000, step=100)
     
     submit_button = st.button("Generate Blog Post 📝")
 
